@@ -82,6 +82,13 @@ body {
 }
 .question-text {
   margin-bottom: 12px;
+  text-align: center;
+}
+
+.question-text img {
+  border-radius: 5px;
+  align-items: center;
+  align-self: center;
 }
 
 .timer-text {

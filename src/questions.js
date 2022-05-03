@@ -1,3 +1,5 @@
+import img78 from "./static/images/78.jpg";
+
 let questions = [
   {
     questionText:
@@ -770,6 +772,513 @@ let questions = [
     answerOptions: [
       { answerText: "Verdadero", isCorrect: false },
       { answerText: "Falso", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "En pavimento mojado nunca se debe circular el vehículo en punto muerto",
+    answerOptions: [
+      { answerText: "Falso", isCorrect: false },
+      { answerText: "Verdadero", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Que debe hacer un conductor al indicar el giro a la derecha?",
+    answerOptions: [
+      {
+        answerText:
+          "Acercarse a la izquierda lo mas posible y prender el señalero",
+        isCorrect: false,
+      },
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      {
+        answerText: "Mantenerse en el eje de la calzada y prender el señalero",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Acercarse lo más a la derecha posible y prender el señalero",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText:
+      "La velocidad adecuada de circulación frente a escuelas en horarios de entrada o salida",
+    answerOptions: [
+      { answerText: "15 km/h", isCorrect: false },
+      { answerText: "25 km/h", isCorrect: false },
+      { answerText: "30 km/h", isCorrect: false },
+      { answerText: "A paso de peaton", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Si mientras va circulando revienta un neumático ",
+    answerOptions: [
+      { answerText: "Frena bruscamente", isCorrect: false },
+      {
+        answerText:
+          "Quita el pie del acelerador y gira por el lado que revento el neumatico",
+        isCorrect: false,
+      },
+      { answerText: "Apaga el motor", isCorrect: false },
+      {
+        answerText:
+          "Frena suavemente, arrimando el auto derecho hasta detenerse",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Si Ud. debe estacionar en bajada",
+    answerOptions: [
+      {
+        answerText:
+          "Aplica el freno de mano y gira las ruedas contrario al cordón de la vereda",
+        isCorrect: false,
+      },
+      {
+        answerText: "Deja derecho el auto y le pone cambio",
+        isCorrect: false,
+      },
+      {
+        answerText: "Deja derecho el auto y aplica freno de mano",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Aplica el freno de mano y gira las ruedas hacia el cordón de la vereda.",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Cuando Ud. se enfrenta a la siguiente silueta, ella Indica",
+    img: "/src/static/images/78.jpg",
+    answerOptions: [
+      { answerText: "Pare", isCorrect: false },
+      { answerText: "No estacionar ni detenerse", isCorrect: false },
+      { answerText: "Cruce Ferroviario", isCorrect: false },
+      { answerText: "Ceda el Paso", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Como se porta ud, cuando se enfrenta a un agente o inspector de tránsito en la siguiente posición",
+    img: "/src/static/images/79.jpg",
+    answerOptions: [
+      { answerText: "Prosigue la marcha", isCorrect: false },
+      {
+        answerText: "Sabe que solo puede girar a la derecha",
+        isCorrect: false,
+      },
+      {
+        answerText: "Sabe que solo puede girar a la izquierda",
+        isCorrect: false,
+      },
+      { answerText: "Detiene totalmente la marcha", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Ante la siguiente señal. ¿Como se comporta ud?",
+    img: "/src/static/images/80.jpg",
+    answerOptions: [
+      { answerText: "a) Nunca toca la bocina", isCorrect: false },
+      {
+        answerText: "b) Solo tocará la bocina para evitar un accidente",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "c) Solo tocará ante una emergencia (por ej. si hay un herido)",
+        isCorrect: false,
+      },
+      { answerText: "d) Solo b y c son correctas", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "La siguiente señal advierte:",
+    img: "/src/static/images/81.jpg",
+    answerOptions: [
+      { answerText: "Camino sinuoso", isCorrect: false },
+      { answerText: "Pavimento resbaladizo", isCorrect: true },
+      { answerText: "Prohibido conducir en zig-zag", isCorrect: false },
+      { answerText: "Prohibido conducir en estado etilico", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "Cuando ud. enfrenta la siguiente silueta ella le indica:",
+    img: "/src/static/images/82.jpg",
+    answerOptions: [
+      { answerText: "Ceda el Paso", isCorrect: false },
+      { answerText: "Cruce Ferroviario", isCorrect: false },
+      { answerText: "No estacionar", isCorrect: false },
+      { answerText: "Pare", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Cuando Ud. se enfrenta a la siguiente señal de transito Ud. sabe que:",
+    img: "/src/static/images/83.jpg",
+    answerOptions: [
+      { answerText: "Puede girar a la izquierda", isCorrect: false },
+      { answerText: "No puede girar a la izquierda", isCorrect: false },
+      {
+        answerText: "No puede girar en la mitad de la cuadra",
+        isCorrect: false,
+      },
+      { answerText: "No puede girar en U", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Ante la siguiente señal de transito Ud. puede circular a:",
+    img: "/src/static/images/84.jpg",
+    answerOptions: [
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "45 km/h máximo", isCorrect: false },
+      { answerText: "60 km/h o más", isCorrect: false },
+      { answerText: "75 km/h máximo", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "La siguiente señal advierte:",
+    img: "/src/static/images/85.jpg",
+    answerOptions: [
+      { answerText: "Próximamente dunas", isCorrect: false },
+      { answerText: "Baches", isCorrect: false },
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "Próximamente despertadores", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Como actua ud. ante esta señal?",
+    img: "/src/static/images/86.jpg",
+    answerOptions: [
+      { answerText: "Estacionamiento zona azul", isCorrect: false },
+      {
+        answerText: "Estacionamiento reservado para vehículos oficiales",
+        isCorrect: false,
+      },
+      { answerText: "No estacionar", isCorrect: false },
+      { answerText: "No estacionar ni detenerse", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Ante éseta señal de transito ud. puede circular",
+    img: "/src/static/images/87.jpg",
+    answerOptions: [
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "30 km/h máximo", isCorrect: false },
+      { answerText: "45 km/h o más", isCorrect: false },
+      { answerText: "45 km/h maximo", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que le indica a Ud. esta señal?",
+    img: "/src/static/images/88.jpg",
+    answerOptions: [
+      { answerText: "Todas son correctas", isCorrect: false },
+      { answerText: "Próximamente curva a la izquierda", isCorrect: false },
+      {
+        answerText: "Proximamente aparecerá tránsito sobre la izquierda",
+        isCorrect: false,
+      },
+      { answerText: "Próximamente curva a la derecha", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Esta señal de transito advierte:",
+    img: "/src/static/images/89.jpg",
+    answerOptions: [
+      { answerText: "Atención gente en obra", isCorrect: false },
+      { answerText: "Próximamente plaza de deportes", isCorrect: false },
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "Despacio escuela", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Como se comporta ante esta señal?",
+    img: "/src/static/images/90.jpg",
+    answerOptions: [
+      { answerText: "No se puede girar a la izquierda", isCorrect: false },
+      {
+        answerText: "Ud. sabe que nadie puede aparecer por la izquierda",
+        isCorrect: false,
+      },
+      {
+        answerText: "Ud. sabe que próximamente se encontrará con calle cerrada",
+        isCorrect: false,
+      },
+      {
+        answerText: "Ud. sabe que no puede girar a la derecha",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Que indica la siguiente señal?",
+    img: "/src/static/images/91.jpg",
+    answerOptions: [
+      { answerText: "Atención una sola mano de circulación", isCorrect: false },
+      { answerText: "Atención tránsito en contra", isCorrect: false },
+      { answerText: "No estacionar en doble fila", isCorrect: false },
+      { answerText: "No adelantar", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que indica esta señal?",
+    img: "/src/static/images/92.jpg",
+    answerOptions: [
+      { answerText: "Pavimento resbaladizo", isCorrect: false },
+      { answerText: "Próximamente pavimente resbaladizo", isCorrect: false },
+      { answerText: "Fin de camino sinuoso", isCorrect: false },
+      { answerText: "Camino sinuoso", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "La siguiente señal de tránsito advierte:",
+    img: "/src/static/images/93.jpg",
+    answerOptions: [
+      { answerText: "Cuidado niños jugando", isCorrect: false },
+      { answerText: "Atención gente en obra", isCorrect: false },
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "Próximamente cruce peatonal", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que le indica esta señal?",
+    img: "/src/static/images/94.jpg",
+    answerOptions: [
+      { answerText: "Calle cerrada", isCorrect: false },
+      { answerText: "Próximamente cebra", isCorrect: false },
+      { answerText: "No estacionar", isCorrect: false },
+      { answerText: "Contramano", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Que indica el agente o inspector de tránsito en la siguiente posición?",
+    img: "/src/static/images/95.jpg",
+    answerOptions: [
+      {
+        answerText:
+          "Solo continúan la marcha los vehículos que vienen de su derecha",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Solo continúan la marcha los vehículos que vienen de su izquierda",
+        isCorrect: false,
+      },
+      { answerText: "Proseguir la marcha", isCorrect: false },
+      {
+        answerText: "Detiene el transito en todos los sentidos",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Ante la siguiente señal? Como se comporta ud?",
+    img: "/src/static/images/96.jpg",
+    answerOptions: [
+      {
+        answerText: "Solo toca bocina frente a los hospitales",
+        isCorrect: false,
+      },
+      { answerText: "Solo toca la bocina", isCorrect: false },
+      { answerText: "Nunca toca la bocina", isCorrect: false },
+      { answerText: "Ninguna es correcta", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que le advierte a ud. la siguiente señal de transito?",
+    img: "/src/static/images/97.jpg",
+    answerOptions: [
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "Rampa", isCorrect: false },
+      { answerText: "Próximamente bajada", isCorrect: false },
+      { answerText: "Próximamente repecho", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que debe hacer ud. ante la siguiente señal?",
+    img: "/src/static/images/98.jpg",
+    answerOptions: [
+      {
+        answerText: "Estacionamiento reservado para vehiculos oficiales",
+        isCorrect: false,
+      },
+      { answerText: "No estacionar ni detenerse", isCorrect: false },
+      { answerText: "Estacionamiento zona azul", isCorrect: false },
+      { answerText: "No estacionar", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Ante la siguiente señal de transito Ud. puede circular a:",
+    img: "/src/static/images/99.jpg",
+    answerOptions: [
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "85 km/h o más", isCorrect: false },
+      { answerText: "45 km/h o más", isCorrect: false },
+      { answerText: "80 km/h máximo", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que le advierte a ud. esta señal?",
+    img: "/src/static/images/100.jpg",
+    answerOptions: [
+      { answerText: "Próximamente curva a la izquierda", isCorrect: false },
+      {
+        answerText: "Próximamente aparecerá transito por la izquierda",
+        isCorrect: false,
+      },
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      {
+        answerText: "Proximamente prohibido doblar a la izquierda",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Que le advierte a ud. esta señal?",
+    img: "/src/static/images/106.jpg",
+    answerOptions: [
+      { answerText: "Despacio escuela", isCorrect: false },
+      { answerText: "Peatonal", isCorrect: false },
+      { answerText: "Obras", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que le advierte a ud. esta señal?",
+    img: "/src/static/images/107.jpg",
+    answerOptions: [
+      { answerText: "Cruce", isCorrect: false },
+      { answerText: "Bifurcacion en T", isCorrect: false },
+      { answerText: "Bifurcacion en Y", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que le advierte a ud. esta señal?",
+    img: "/src/static/images/108.jpg",
+    answerOptions: [
+      { answerText: "Puente angosto", isCorrect: false },
+      { answerText: "Estrechamiento de calzada", isCorrect: false },
+      {
+        answerText: "Calzada irregular o próximamente despertadores",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Que le advierte a ud. esta señal?",
+    img: "/src/static/images/109.jpg",
+    answerOptions: [
+      { answerText: "Tramo sinuoso", isCorrect: false },
+      { answerText: "Curva", isCorrect: false },
+      { answerText: "Curva pronunciada", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que le advierte a ud. esta señal?",
+    img: "/src/static/images/110.jpg",
+    answerOptions: [
+      { answerText: "Bifurcacion en Y", isCorrect: false },
+      { answerText: "Camino resbaladizo", isCorrect: false },
+      { answerText: "Vía lateral", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que le advierte a ud. esta señal?",
+    img: "/src/static/images/111.jpg",
+    answerOptions: [
+      { answerText: "Animales sueltos", isCorrect: false },
+      { answerText: "Estancia", isCorrect: false },
+      { answerText: "Paso de animales", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Como se comporta usted ante la siguiente señal?",
+    img: "/src/static/images/131.jpg",
+    answerOptions: [
+      {
+        answerText: "Usted solo puede girar a la izquierda.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Disminuye la velocidad pues próximamente se encontrará con una calle cerrada",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "No le da importancia pues sabe que nadie puede aparecer por la derecha",
+        isCorrect: false,
+      },
+      { answerText: "No puede girar a la izquierda", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que le indica la siguiente señal de transito?",
+    img: "/src/static/images/132.jpg",
+    answerOptions: [
+      { answerText: "Solo puede circular por la izquierda", isCorrect: false },
+      { answerText: "Debe circular por la banquina", isCorrect: false },
+      { answerText: "Solo puede circular por la derecha", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que indica esta señal?",
+    img: "/src/static/images/133.jpg",
+    answerOptions: [
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "Próximamente caserío", isCorrect: false },
+      { answerText: "Calle cerrada", isCorrect: false },
+      { answerText: "Intersección", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Ante la siguiente señal, a que velocidad puede circular?",
+    img: "/src/static/images/134.jpg",
+    answerOptions: [
+      { answerText: "a 75 km/h máximo", isCorrect: false },
+      { answerText: "a 45 km/h máximo", isCorrect: false },
+      { answerText: "a 60 km/h máximo", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Que significa la siguiente señal?",
+    img: "/src/static/images/135.jpg",
+    answerOptions: [
+      { answerText: "Prohibido estacionar", isCorrect: false },
+      { answerText: "Prohibido adelantar", isCorrect: false },
+      { answerText: "No existe", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Un vehículo que circula a 65 km/h necesita para detenerse",
+    answerOptions: [
+      { answerText: "10 metros", isCorrect: false },
+      { answerText: "25 metros", isCorrect: false },
+      { answerText: "2 cuadras", isCorrect: false },
+      { answerText: "Media cuadra", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "En carretera se debe aminorar la marcha en:",
+    answerOptions: [
+      { answerText: "Zonas urbanas y caserios", isCorrect: false },
+      { answerText: "Curvas y cruces", isCorrect: false },
+      { answerText: "Pasos a nivel y puentes", isCorrect: false },
+      { answerText: "Todas son corractas", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Cuando un vehículo sufre un desperfecto en la carretera se debe  colocar la baliza o triangulo por lo menos a 50 metros",
+    answerOptions: [
+      { answerText: "Falso", isCorrect: false },
+      { answerText: "Verdadero", isCorrect: true },
     ],
   },
 ];

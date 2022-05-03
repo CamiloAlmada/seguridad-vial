@@ -103,6 +103,12 @@ function App() {
             </div>
             <div className="question-text">
               {selected_questions[currentQuestion].questionText}
+              {selected_questions[currentQuestion].hasOwnProperty("img") && (
+                <img
+                  align="center"
+                  src={selected_questions[currentQuestion].img}
+                />
+              )}
             </div>
           </div>
           <div className="answer-section">
