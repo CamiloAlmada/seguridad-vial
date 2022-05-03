@@ -20,16 +20,18 @@ function sample(array, size) {
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [toggleQuestions, setToggleQuestions] = useState(false);
+  const [answeredCorrect, setAnsweredCorrect] = useState(false);
+  const [answered, setAnswered] = useState(false);
+  const [reviewMode, setReviewMode] = useState(false);
   const [freshGame, setFreshGame] = useState(true);
   const [score, setScore] = useState(0);
   const [selected_questions, setQuestions] = useState(questions);
 
-  const handleAnswerOptionClick = (isCorrect) => {
-    if (isCorrect) {
-      setScore(score + 1);
-    }
 
+  const advanceQuestion = () =>{
+
+    setAnswered(false);
+    setAnsweredCorrect(false); 
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < selected_questions.length) {
       setCurrentQuestion(nextQuestion);
@@ -37,16 +39,31 @@ function App() {
       setShowScore(true);
     }
   };
+  const handleAnswerOptionClick = (isCorrect) => {
+    setAnswered(true);
+    if (isCorrect) {
+      setScore(score + 1);
+      setAnsweredCorrect(true); 
+    }
+    console.log('reviewMode :',reviewMode)
+    if (!reviewMode){
+      advanceQuestion();
+    } 
+  };
 
   const handleStartGame = (isShortVersion) => {
+
+    setAnswered(false);
+    setAnsweredCorrect(false); 
     if (isShortVersion) {
-      setQuestions(sample(questions,25));
+      setQuestions(sample(questions, 25));
+      setReviewMode(false);
     }
     else {
       setQuestions(sample(questions, questions.length));
+      setReviewMode(true);
 
     }
-    setToggleQuestions(isShortVersion);
     setFreshGame(false);
   };
 
@@ -55,6 +72,8 @@ function App() {
     setScore(0);
     setFreshGame(true);
     setShowScore(false);
+
+    setAnswered(false);
   }
 
 
@@ -76,7 +95,7 @@ function App() {
           <button onClick={() => handleStartGame(false)}>Completo</button>
         </div>
       ) : (
-        <>
+        <div className="box">
           <div className="question-section">
             <div className="question-count">
               <span>Pregunta {currentQuestion + 1}</span>/
@@ -93,6 +112,15 @@ function App() {
               })
               .map((answerOption) => (
                 <button
+                  className={
+                    reviewMode
+                      ? answered
+                        ? answerOption.isCorrect
+                          ? "correct"
+                          : "incorrect"
+                        : ""
+                      : ""
+                  }
                   onClick={() =>
                     handleAnswerOptionClick(answerOption.isCorrect)
                   }
@@ -101,7 +129,19 @@ function App() {
                 </button>
               ))}
           </div>
-        </>
+          {reviewMode && answered && (
+            <div className="answer">
+              <span>
+                {answeredCorrect
+                  ? "Respuesta Correcta"
+                  : "Respuesta Incorrecta"}
+              </span>
+              <button onClick={() => advanceQuestion()}>
+                Siguiente Pregunta
+              </button>
+            </div>
+          )}
+        </div>
       )}
     </div>
   );
