@@ -1,4 +1,37 @@
 import img78 from "./static/images/78.jpg";
+import img79 from "./static/images/79.jpg";
+import img80 from "./static/images/80.jpg";
+import img81 from "./static/images/81.jpg";
+import img82 from "./static/images/82.jpg";
+import img83 from "./static/images/83.jpg";
+import img84 from "./static/images/84.jpg";
+import img85 from "./static/images/85.jpg";
+import img86 from "./static/images/86.jpg";
+import img87 from "./static/images/87.jpg";
+import img88 from "./static/images/88.jpg";
+import img89 from "./static/images/89.jpg";
+import img90 from "./static/images/90.jpg";
+import img91 from "./static/images/91.jpg";
+import img92 from "./static/images/92.jpg";
+import img93 from "./static/images/93.jpg";
+import img94 from "./static/images/94.jpg";
+import img95 from "./static/images/95.jpg";
+import img96 from "./static/images/96.jpg";
+import img97 from "./static/images/97.jpg";
+import img98 from "./static/images/98.jpg";
+import img99 from "./static/images/99.jpg";
+import img100 from "./static/images/100.jpg";
+import img106 from "./static/images/106.jpg";
+import img107 from "./static/images/107.jpg";
+import img108 from "./static/images/108.jpg";
+import img109 from "./static/images/109.jpg";
+import img110 from "./static/images/110.jpg";
+import img111 from "./static/images/111.jpg";
+import img131 from "./static/images/131.jpg";
+import img132 from "./static/images/132.jpg";
+import img133 from "./static/images/133.jpg";
+import img134 from "./static/images/134.jpg";
+import img135 from "./static/images/135.jpg";
 
 let questions = [
   {
@@ -855,7 +888,7 @@ let questions = [
   },
   {
     questionText: "Cuando Ud. se enfrenta a la siguiente silueta, ella Indica",
-    img: "/src/static/images/78.jpg",
+    img: img78,
     answerOptions: [
       { answerText: "Pare", isCorrect: false },
       { answerText: "No estacionar ni detenerse", isCorrect: false },
@@ -866,7 +899,7 @@ let questions = [
   {
     questionText:
       "Como se porta ud, cuando se enfrenta a un agente o inspector de tránsito en la siguiente posición",
-    img: "/src/static/images/79.jpg",
+    img: img79,
     answerOptions: [
       { answerText: "Prosigue la marcha", isCorrect: false },
       {
@@ -882,7 +915,7 @@ let questions = [
   },
   {
     questionText: "Ante la siguiente señal. ¿Como se comporta ud?",
-    img: "/src/static/images/80.jpg",
+    img: img80,
     answerOptions: [
       { answerText: "a) Nunca toca la bocina", isCorrect: false },
       {
@@ -899,7 +932,7 @@ let questions = [
   },
   {
     questionText: "La siguiente señal advierte:",
-    img: "/src/static/images/81.jpg",
+    img: img81,
     answerOptions: [
       { answerText: "Camino sinuoso", isCorrect: false },
       { answerText: "Pavimento resbaladizo", isCorrect: true },
@@ -909,7 +942,7 @@ let questions = [
   },
   {
     questionText: "Cuando ud. enfrenta la siguiente silueta ella le indica:",
-    img: "/src/static/images/82.jpg",
+    img: img82,
     answerOptions: [
       { answerText: "Ceda el Paso", isCorrect: false },
       { answerText: "Cruce Ferroviario", isCorrect: false },
@@ -920,7 +953,7 @@ let questions = [
   {
     questionText:
       "Cuando Ud. se enfrenta a la siguiente señal de transito Ud. sabe que:",
-    img: "/src/static/images/83.jpg",
+    img: img83,
     answerOptions: [
       { answerText: "Puede girar a la izquierda", isCorrect: false },
       { answerText: "No puede girar a la izquierda", isCorrect: false },
@@ -933,7 +966,7 @@ let questions = [
   },
   {
     questionText: "Ante la siguiente señal de transito Ud. puede circular a:",
-    img: "/src/static/images/84.jpg",
+    img: img84,
     answerOptions: [
       { answerText: "Ninguna es correcta", isCorrect: false },
       { answerText: "45 km/h máximo", isCorrect: false },
@@ -943,7 +976,7 @@ let questions = [
   },
   {
     questionText: "La siguiente señal advierte:",
-    img: "/src/static/images/85.jpg",
+    img: img85,
     answerOptions: [
       { answerText: "Próximamente dunas", isCorrect: false },
       { answerText: "Baches", isCorrect: false },
@@ -953,7 +986,7 @@ let questions = [
   },
   {
     questionText: "Como actua ud. ante esta señal?",
-    img: "/src/static/images/86.jpg",
+    img: img86,
     answerOptions: [
       { answerText: "Estacionamiento zona azul", isCorrect: false },
       {
@@ -966,7 +999,7 @@ let questions = [
   },
   {
     questionText: "Ante éseta señal de transito ud. puede circular",
-    img: "/src/static/images/87.jpg",
+    img: img87,
     answerOptions: [
       { answerText: "Ninguna es correcta", isCorrect: false },
       { answerText: "30 km/h máximo", isCorrect: false },
@@ -975,8 +1008,8 @@ let questions = [
     ],
   },
   {
-    questionText: "Que le indica a Ud. esta señal?",
-    img: "/src/static/images/88.jpg",
+    questionText: "Que indica la siguiente señal?",
+    img: img88,
     answerOptions: [
       { answerText: "Todas son correctas", isCorrect: false },
       { answerText: "Próximamente curva a la izquierda", isCorrect: false },
@@ -989,7 +1022,7 @@ let questions = [
   },
   {
     questionText: "Esta señal de transito advierte:",
-    img: "/src/static/images/89.jpg",
+    img: img89,
     answerOptions: [
       { answerText: "Atención gente en obra", isCorrect: false },
       { answerText: "Próximamente plaza de deportes", isCorrect: false },
@@ -999,7 +1032,7 @@ let questions = [
   },
   {
     questionText: "Como se comporta ante esta señal?",
-    img: "/src/static/images/90.jpg",
+    img: img90,
     answerOptions: [
       { answerText: "No se puede girar a la izquierda", isCorrect: false },
       {
@@ -1018,7 +1051,7 @@ let questions = [
   },
   {
     questionText: "Que indica la siguiente señal?",
-    img: "/src/static/images/91.jpg",
+    img: img91,
     answerOptions: [
       { answerText: "Atención una sola mano de circulación", isCorrect: false },
       { answerText: "Atención tránsito en contra", isCorrect: false },
@@ -1028,7 +1061,7 @@ let questions = [
   },
   {
     questionText: "Que indica esta señal?",
-    img: "/src/static/images/92.jpg",
+    img: img92,
     answerOptions: [
       { answerText: "Pavimento resbaladizo", isCorrect: false },
       { answerText: "Próximamente pavimente resbaladizo", isCorrect: false },
@@ -1038,7 +1071,7 @@ let questions = [
   },
   {
     questionText: "La siguiente señal de tránsito advierte:",
-    img: "/src/static/images/93.jpg",
+    img: img93,
     answerOptions: [
       { answerText: "Cuidado niños jugando", isCorrect: false },
       { answerText: "Atención gente en obra", isCorrect: false },
@@ -1048,7 +1081,7 @@ let questions = [
   },
   {
     questionText: "Que le indica esta señal?",
-    img: "/src/static/images/94.jpg",
+    img: img94,
     answerOptions: [
       { answerText: "Calle cerrada", isCorrect: false },
       { answerText: "Próximamente cebra", isCorrect: false },
@@ -1059,7 +1092,7 @@ let questions = [
   {
     questionText:
       "Que indica el agente o inspector de tránsito en la siguiente posición?",
-    img: "/src/static/images/95.jpg",
+    img: img95,
     answerOptions: [
       {
         answerText:
@@ -1080,7 +1113,7 @@ let questions = [
   },
   {
     questionText: "Ante la siguiente señal? Como se comporta ud?",
-    img: "/src/static/images/96.jpg",
+    img: img96,
     answerOptions: [
       {
         answerText: "Solo toca bocina frente a los hospitales",
@@ -1093,7 +1126,7 @@ let questions = [
   },
   {
     questionText: "Que le advierte a ud. la siguiente señal de transito?",
-    img: "/src/static/images/97.jpg",
+    img: img97,
     answerOptions: [
       { answerText: "Ninguna es correcta", isCorrect: false },
       { answerText: "Rampa", isCorrect: false },
@@ -1103,7 +1136,7 @@ let questions = [
   },
   {
     questionText: "Que debe hacer ud. ante la siguiente señal?",
-    img: "/src/static/images/98.jpg",
+    img: img98,
     answerOptions: [
       {
         answerText: "Estacionamiento reservado para vehiculos oficiales",
@@ -1116,7 +1149,7 @@ let questions = [
   },
   {
     questionText: "Ante la siguiente señal de transito Ud. puede circular a:",
-    img: "/src/static/images/99.jpg",
+    img: img99,
     answerOptions: [
       { answerText: "Ninguna es correcta", isCorrect: false },
       { answerText: "85 km/h o más", isCorrect: false },
@@ -1126,7 +1159,7 @@ let questions = [
   },
   {
     questionText: "Que le advierte a ud. esta señal?",
-    img: "/src/static/images/100.jpg",
+    img: img100,
     answerOptions: [
       { answerText: "Próximamente curva a la izquierda", isCorrect: false },
       {
@@ -1142,7 +1175,7 @@ let questions = [
   },
   {
     questionText: "Que le advierte a ud. esta señal?",
-    img: "/src/static/images/106.jpg",
+    img: img106,
     answerOptions: [
       { answerText: "Despacio escuela", isCorrect: false },
       { answerText: "Peatonal", isCorrect: false },
@@ -1151,7 +1184,7 @@ let questions = [
   },
   {
     questionText: "Que le advierte a ud. esta señal?",
-    img: "/src/static/images/107.jpg",
+    img: img107,
     answerOptions: [
       { answerText: "Cruce", isCorrect: false },
       { answerText: "Bifurcacion en T", isCorrect: false },
@@ -1160,7 +1193,7 @@ let questions = [
   },
   {
     questionText: "Que le advierte a ud. esta señal?",
-    img: "/src/static/images/108.jpg",
+    img: img108,
     answerOptions: [
       { answerText: "Puente angosto", isCorrect: false },
       { answerText: "Estrechamiento de calzada", isCorrect: false },
@@ -1172,7 +1205,7 @@ let questions = [
   },
   {
     questionText: "Que le advierte a ud. esta señal?",
-    img: "/src/static/images/109.jpg",
+    img: img109,
     answerOptions: [
       { answerText: "Tramo sinuoso", isCorrect: false },
       { answerText: "Curva", isCorrect: false },
@@ -1181,7 +1214,7 @@ let questions = [
   },
   {
     questionText: "Que le advierte a ud. esta señal?",
-    img: "/src/static/images/110.jpg",
+    img: img110,
     answerOptions: [
       { answerText: "Bifurcacion en Y", isCorrect: false },
       { answerText: "Camino resbaladizo", isCorrect: false },
@@ -1190,7 +1223,7 @@ let questions = [
   },
   {
     questionText: "Que le advierte a ud. esta señal?",
-    img: "/src/static/images/111.jpg",
+    img: img111,
     answerOptions: [
       { answerText: "Animales sueltos", isCorrect: false },
       { answerText: "Estancia", isCorrect: false },
@@ -1199,7 +1232,7 @@ let questions = [
   },
   {
     questionText: "Como se comporta usted ante la siguiente señal?",
-    img: "/src/static/images/131.jpg",
+    img: img131,
     answerOptions: [
       {
         answerText: "Usted solo puede girar a la izquierda.",
@@ -1220,7 +1253,7 @@ let questions = [
   },
   {
     questionText: "Que le indica la siguiente señal de transito?",
-    img: "/src/static/images/132.jpg",
+    img: img132,
     answerOptions: [
       { answerText: "Solo puede circular por la izquierda", isCorrect: false },
       { answerText: "Debe circular por la banquina", isCorrect: false },
@@ -1229,7 +1262,7 @@ let questions = [
   },
   {
     questionText: "Que indica esta señal?",
-    img: "/src/static/images/133.jpg",
+    img: img133,
     answerOptions: [
       { answerText: "Ninguna es correcta", isCorrect: false },
       { answerText: "Próximamente caserío", isCorrect: false },
@@ -1239,7 +1272,7 @@ let questions = [
   },
   {
     questionText: "Ante la siguiente señal, a que velocidad puede circular?",
-    img: "/src/static/images/134.jpg",
+    img: img134,
     answerOptions: [
       { answerText: "a 75 km/h máximo", isCorrect: false },
       { answerText: "a 45 km/h máximo", isCorrect: false },
@@ -1248,7 +1281,7 @@ let questions = [
   },
   {
     questionText: "Que significa la siguiente señal?",
-    img: "/src/static/images/135.jpg",
+    img: img135,
     answerOptions: [
       { answerText: "Prohibido estacionar", isCorrect: false },
       { answerText: "Prohibido adelantar", isCorrect: false },
