@@ -100,10 +100,15 @@ function App() {
           </button>
         </div>
       ) : freshGame ? (
-        <div className="score-section">
-          <button onClick={() => handleStartGame(1)}>25 Preguntas</button>
-          <button onClick={() => handleStartGame(2)}>Completo</button>
-          <button onClick={() => handleStartGame(3)}>Señales</button>
+        <div>
+          <div className="seleccion">
+              <span>Seleccione modo:</span>
+          </div>
+          <div className="score-section">
+            <button onClick={() => handleStartGame(1)}>Examen</button>
+            <button onClick={() => handleStartGame(2)}>Completo</button>
+            <button onClick={() => handleStartGame(3)}>Señales</button>
+          </div>
         </div>
       ) : (
         <div className="box">
