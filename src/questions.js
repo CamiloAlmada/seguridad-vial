@@ -681,12 +681,15 @@ let questions = [
   },
   {
     questionText:
-      "Un conductor al enfrentar una señal de \"Ceda el Paso\" deberá:",
+      'Un conductor al enfrentar una señal de "Ceda el Paso" deberá:',
     answerOptions: [
       { answerText: "Detenerse siempre", isCorrect: false },
       { answerText: "Seguir la marcha a la misma velocidad", isCorrect: false },
       { answerText: "Acelerar", isCorrect: false },
-      { answerText: "Reducir la velocidad y detenerse siempre si es necesario", isCorrect: true },
+      {
+        answerText: "Reducir la velocidad y detenerse siempre si es necesario",
+        isCorrect: true,
+      },
     ],
   },
   {
@@ -709,62 +712,64 @@ let questions = [
   },
   {
     questionText:
-      "Antes de empezar a pasar al vehículo que va adelante, Ud. deberá:",
+      "En el cruce cuyos semáforos se encuentran apagados o descompuestos la preferencia será de:",
     answerOptions: [
-      { answerText: "1", isCorrect: false },
-      { answerText: "4", isCorrect: false },
-      { answerText: "6", isCorrect: false },
-      { answerText: "7", isCorrect: true },
+      {
+        answerText: "Los vehículos que aparecen por la izquierda",
+        isCorrect: false,
+      },
+      { answerText: "Los que llegan primero al ", isCorrect: false },
+      { answerText: "Los que circulan por una avenida", isCorrect: false },
+      {
+        answerText: "Los vehículos que aparecen por la derecha",
+        isCorrect: true,
+      },
     ],
   },
   {
     questionText:
-      "Antes de empezar a pasar al vehículo que va adelante, Ud. deberá:",
+      "Siempre se debe prestar atención a la luz del semáforo que está frente a uno:",
     answerOptions: [
-      { answerText: "1", isCorrect: false },
-      { answerText: "4", isCorrect: false },
-      { answerText: "6", isCorrect: false },
-      { answerText: "7", isCorrect: true },
+      { answerText: "Falso", isCorrect: false },
+      { answerText: "Verdadero", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Al conducir en carretera su fatiga aumentará si.",
+    answerOptions: [
+      { answerText: "a) Escucha música", isCorrect: false },
+      {
+        answerText: "b) Si fuma con las ventanas cerradas",
+        isCorrect: false,
+      },
+      { answerText: "c) Si el paisaje es monótono", isCorrect: false },
+      { answerText: "d) Solo b y c son correctas", isCorrect: true },
     ],
   },
   {
     questionText:
-      "Antes de empezar a pasar al vehículo que va adelante, Ud. deberá:",
+      "Cuando se trata de evitar un choque de frente en carretera Ud deberá:",
     answerOptions: [
-      { answerText: "1", isCorrect: false },
-      { answerText: "4", isCorrect: false },
-      { answerText: "6", isCorrect: false },
-      { answerText: "7", isCorrect: true },
+      { answerText: "Frenar", isCorrect: false },
+      { answerText: "Encender las luces largas", isCorrect: false },
+      { answerText: "Rebajar los cambios", isCorrect: false },
+      { answerText: "Desviarse hacia la banquina", isCorrect: true },
     ],
   },
   {
     questionText:
-      "Antes de empezar a pasar al vehículo que va adelante, Ud. deberá:",
+      "Debe prestar atención de no encandilar a los que vienen en sentido contrario usando las luces cortas",
     answerOptions: [
-      { answerText: "1", isCorrect: false },
-      { answerText: "4", isCorrect: false },
-      { answerText: "6", isCorrect: false },
-      { answerText: "7", isCorrect: true },
+      { answerText: "Falso", isCorrect: false },
+      { answerText: "Verdadero", isCorrect: true },
     ],
   },
   {
     questionText:
-      "Antes de empezar a pasar al vehículo que va adelante, Ud. deberá:",
+      "Usted puede circular sin espejo retrovisor cuando el vehículo sea de transporte de carga",
     answerOptions: [
-      { answerText: "1", isCorrect: false },
-      { answerText: "4", isCorrect: false },
-      { answerText: "6", isCorrect: false },
-      { answerText: "7", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "Antes de empezar a pasar al vehículo que va adelante, Ud. deberá:",
-    answerOptions: [
-      { answerText: "1", isCorrect: false },
-      { answerText: "4", isCorrect: false },
-      { answerText: "6", isCorrect: false },
-      { answerText: "7", isCorrect: true },
+      { answerText: "Verdadero", isCorrect: false },
+      { answerText: "Falso", isCorrect: true },
     ],
   },
 ];
