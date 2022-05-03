@@ -26,7 +26,9 @@ function App() {
   const [freshGame, setFreshGame] = useState(true);
   const [score, setScore] = useState(0);
   const [selected_questions, setQuestions] = useState(questions);
-
+  const onlyImg = questions.filter((question) =>
+    question.hasOwnProperty("img")
+  );
 
   const advanceQuestion = () =>{
 
@@ -52,18 +54,26 @@ function App() {
   };
 
   const handleStartGame = (isShortVersion) => {
+    
+    switch (isShortVersion) {
+      case 1:
+        setQuestions(sample(questions, 25));
+        setReviewMode(false);
+        break;
+      case 2:
+        setQuestions(sample(questions, questions.length));
+        setReviewMode(true);
+        break;
+      case 3:
+        setQuestions(sample(onlyImg, onlyImg.length));
+        setReviewMode(true);
+        break;
 
+      default:
+        break;
+    }
     setAnswered(false);
     setAnsweredCorrect(false); 
-    if (isShortVersion) {
-      setQuestions(sample(questions, 25));
-      setReviewMode(false);
-    }
-    else {
-      setQuestions(sample(questions, questions.length));
-      setReviewMode(true);
-
-    }
     setFreshGame(false);
   };
 
@@ -91,8 +101,9 @@ function App() {
         </div>
       ) : freshGame ? (
         <div className="score-section">
-          <button onClick={() => handleStartGame(true)}>25 Preguntas</button>
-          <button onClick={() => handleStartGame(false)}>Completo</button>
+          <button onClick={() => handleStartGame(1)}>25 Preguntas</button>
+          <button onClick={() => handleStartGame(2)}>Completo</button>
+          <button onClick={() => handleStartGame(3)}>Señales</button>
         </div>
       ) : (
         <div className="box">
