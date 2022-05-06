@@ -512,19 +512,9 @@ let questions = [
     questionText:
       "Ante destellantes amarillos instalados en las cercanías de las escuelas, a que velocidad debe circular:",
     answerOptions: [
-      { answerText: "1", isCorrect: false },
-      { answerText: "4", isCorrect: false },
-      { answerText: "6", isCorrect: false },
-      { answerText: "7", isCorrect: true },
-    ],
-  },
-  {
-    questionText:
-      "Antes de empezar a pasar al vehículo que va adelante, Ud. deberá:",
-    answerOptions: [
-      { answerText: "A 15 km/h", isCorrect: false },
-      { answerText: "A 25 km/h", isCorrect: false },
       { answerText: "A 30 km/h", isCorrect: false },
+      { answerText: "A 25 km/h", isCorrect: false },
+      { answerText: "A 15 km/h", isCorrect: false },
       { answerText: "A paso de peatón", isCorrect: true },
     ],
   },
@@ -532,10 +522,16 @@ let questions = [
     questionText:
       "Antes de empezar a pasar al vehículo que va adelante, Ud. deberá:",
     answerOptions: [
-      { answerText: "1", isCorrect: false },
-      { answerText: "4", isCorrect: false },
-      { answerText: "6", isCorrect: false },
-      { answerText: "7", isCorrect: true },
+      {
+        answerText: "Colocarse en la senda derecha y prender el señalero",
+        isCorrect: false,
+      },
+      { answerText: "Hacer cambio de luces", isCorrect: false },
+      { answerText: "Tocar bocina", isCorrect: false },
+      {
+        answerText: "Mirar por el espejo retrovisor y prender el señalero",
+        isCorrect: true,
+      },
     ],
   },
   {
@@ -1312,6 +1308,270 @@ let questions = [
     answerOptions: [
       { answerText: "Falso", isCorrect: false },
       { answerText: "Verdadero", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Esta terminantemente prohibido estacionar",
+    answerOptions: [
+      { answerText: "En la mitad de la cuadra", isCorrect: false },
+      {
+        answerText: "En la acera derecha de las calles de un solo sentido",
+        isCorrect: false,
+      },
+      { answerText: "En la puerta de una escuela", isCorrect: false },
+      {
+        answerText: "A menos de 10 metros de una señal de PARE o CEDA EL PASO",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText:
+      "En caso de incendio o inmersion el cinturón de seguridad le puede salvar la vida",
+    answerOptions: [
+      { answerText: "Falso", isCorrect: false },
+      { answerText: "Verdadero", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Ante irregularidades en la documentación o estado del vehículo, este puede ser detenido por funcionario de tránsito, igual que la documentación (del conductor y del vehículo) previa entrega del recibo pertinente",
+    answerOptions: [
+      { answerText: "Falso", isCorrect: false },
+      { answerText: "Verdadero", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "El peatón, tiene preferencia de cruce en cualquier lugar de la calzada?",
+    answerOptions: [
+      { answerText: "Verdadero", isCorrect: false },
+      { answerText: "Falso", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Al reventarse un neumático se debe:",
+    answerOptions: [
+      { answerText: "Apagar el motor", isCorrect: false },
+      {
+        answerText:
+          "Frenar suavemente, arrimando el auto al borde derecho hasta detenerse",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Quitar el pie del acelerador y girar para el lado que reventó el neumático",
+        isCorrect: false,
+      },
+      { answerText: "Frenar bruscamente", isCorrect: false },
+      {
+        answerText:
+          "Tomar fuertemente el volante y frenar tan suavemente como le sea posible",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Cruce peatonal es",
+    answerOptions: [
+      { answerText: 'Los llamados "lomos de burro"', isCorrect: false },
+      {
+        answerText: "Las señalizadas con franjas blancas paralelas.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Parte de la vereda donde se debe esperar para poder cruzar",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "La senda de seguridad formada por la prolongación(imaginaria o demarcada) del eje de la calzada",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Parte de la calzada habilitada para ser atravesada por peatones",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Ante la proximidad de un vehículo de emergencia usted:",
+    answerOptions: [
+      {
+        answerText:
+          "Hace cambio de luces y toca la bocina para avisar al resto de los conductores",
+        isCorrect: false,
+      },
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "Aumenta la velocidad", isCorrect: false },
+      {
+        answerText:
+          "Despeja rápidamente la calzada permaneciendo detenido donde no moleste",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Que luces deben llevar encendidas un vehículo durante la noche en las áreas urbanas?",
+    answerOptions: [
+      {
+        answerText:
+          "Luces altas o bajas de acuerdo a la situación del transito",
+        isCorrect: true,
+      },
+      { answerText: "Cualquiera indistintamente", isCorrect: false },
+      { answerText: "Ninguna", isCorrect: false },
+    ],
+  },
+  {
+    questionText:
+      "Cuando va detrás de un vehículo durante la noche deben usarse las luces cortas",
+    answerOptions: [
+      { answerText: "En ningún momento", isCorrect: false },
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "Cuando la visibilidad sea muy buena", isCorrect: false },
+      {
+        answerText: "Cuando la distancia haga innecesaria las luces largas",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Cual es la edad mínima para poder viajar en el asiento delantero del vehículo?",
+    answerOptions: [
+      { answerText: "1 año", isCorrect: false },
+      { answerText: "6 años", isCorrect: false },
+      { answerText: "Ninguna es correcta.", isCorrect: false },
+      { answerText: "12 años", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "La preferencia de paso del vehículo de la derecha no regirá",
+    answerOptions: [
+      { answerText: "En los cruces no regulados", isCorrect: false },
+      { answerText: "En las vías de doble tránsito", isCorrect: false },
+      {
+        answerText:
+          "En los cruces regulados por semáforos o agentes de tránsito",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Un conductor al enfrentar una señal de PARE debe:",
+    answerOptions: [
+      { answerText: "Seguir su marcha a la misma velocidad", isCorrect: false },
+      {
+        answerText: "Reducir un poco la velocidad y continuar",
+        isCorrect: false,
+      },
+      {
+        answerText: "Reducir la velocidad y detenerse si fuera necesario",
+        isCorrect: false,
+      },
+      { answerText: "Detener totalmente la marcha", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Un cruce regulado:",
+    answerOptions: [
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      {
+        answerText:
+          " En el que existe cualquier tipo de señal vertical u horizontal",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Es aquel en que existen semáforos funcionando regularmente, un inspector o agente de tránsito",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Se puede adelantar a un vehículo que esta doblando a la derecha",
+    answerOptions: [
+      { answerText: "Falso", isCorrect: false },
+      { answerText: "Verdadero", isCorrect: true },
+    ],
+  },
+  {
+    questionText: "Cuando usted dobla a la derecha:",
+    answerOptions: [
+      {
+        answerText:
+          "Debe acercar su vehículo a la izquierda, encender el señalero y doblar con precaución",
+        isCorrect: false,
+      },
+      { answerText: "Debe encender el señalero derecho", isCorrect: false },
+      {
+        answerText:
+          "Debe mirar por el espejo retrovisor, encender el señalero y acercarse al cordón derecho.",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText:
+      " Por norma general usted deberá circular por el eje de calzada, salvo que transiten otros vehículos",
+    answerOptions: [
+      { answerText: "Verdadero", isCorrect: false },
+      { answerText: "Falso", isCorrect: true },
+    ],
+  },
+  {
+    questionText:
+      "Un vehículo motorizado que esta correctamente estacionado es aquel que está con:",
+    answerOptions: [
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      {
+        answerText: "El motor apagado y las ruedas en ángulo con el cordon",
+        isCorrect: false,
+      },
+      {
+        answerText: "El motor apagado y el cambio puesto",
+        isCorrect: false,
+      },
+      {
+        answerText: "El motor apagado y el freno de mano puesto",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText:
+      "Cual es la distancia minima de seguridad que usted debe mantener con respecto al vehículo que circula delante?",
+    answerOptions: [
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      {
+        answerText: "Un cuarto en metros de la velocidad en km/h",
+        isCorrect: false,
+      },
+      {
+        answerText: "El doble en metros de la velocidad en km/h",
+        isCorrect: false,
+      },
+      {
+        answerText: "La mitad en metros de la velocidad en km/h",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    questionText: "Si su vehículo comienza a patinar al momento de frenar",
+    answerOptions: [
+      { answerText: "Ninguna es correcta", isCorrect: false },
+      { answerText: "Acelere", isCorrect: false },
+      { answerText: "Frene energicamente", isCorrect: false },
+      {
+        answerText: "Procure detenerlo bombeando intermitentemente el freno",
+        isCorrect: true,
+      },
     ],
   },
 ];
